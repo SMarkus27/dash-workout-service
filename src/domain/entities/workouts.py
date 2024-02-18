@@ -4,15 +4,15 @@ from dataclasses import dataclass
 
 @dataclass
 class Workouts:
-    _date: str
-    _name: str
-    _weight: float
-    _type: str
+    date: str
+    name: str
+    weight: float
+    type: str
 
     def __post_init__(self):
-        self.validate_name(self._name)
-        self.validate_weight(self._weight)
-        self.validate_type(self._type)
+        self.validate_name(self.name)
+        self.validate_weight(self.weight)
+        self.validate_type(self.type)
 
     @staticmethod
     def validate_name(name: str):
