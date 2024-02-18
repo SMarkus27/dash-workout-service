@@ -1,4 +1,4 @@
-from src.infra.repository.division import DivisionRepository
+from src.infra.repositories.division import DivisionRepository
 
 
 class GetDivision:

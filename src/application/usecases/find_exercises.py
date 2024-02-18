@@ -1,4 +1,4 @@
-from src.infra.repository.exercises import ExercisesRepository
+from src.infra.repositories.exercises import ExercisesRepository
 
 
 class GetExercises:

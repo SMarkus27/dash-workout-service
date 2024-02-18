@@ -1,4 +1,4 @@
-from src.infra.repository.workout import WorkoutsRepository
+from src.infra.repositories.workout import WorkoutsRepository
 
 
 class GetWorkout:
