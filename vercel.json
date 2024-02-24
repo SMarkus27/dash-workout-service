@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+      {
+          "src": "*.py",
+          "use": "@SMarkus27/dash-workout-service"
+      }
+  ],
+  "routes": [
+      {
+          "src": "(.*)",
+          "dest": "main.py"
+      }
+  ]
+}
